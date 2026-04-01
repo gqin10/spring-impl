@@ -5,10 +5,10 @@ This repository contains custom implementations of common Spring Framework featu
 
 | Spring Feature | Implemented Class | Status | Documentation |
 | - | - | - | - |
-| `ApplicationContext` | | ⬜ | |
+| `ApplicationContext` | `com.qode.springimpl.context.AnnotationApplicationContext` | ✅ | |
 | Classpath scanning | | ⬜ | |
-| `@Configuration` | | ⬜ | |
-| `@Bean` | | ⬜ | |
+| `@Configuration` | `com.qode.springimpl.annotation.Configuration` | ✅ | |
+| `@Bean` | `com.qode.springimpl.annotation.Bean` | ✅ | |
 | `@Component` | | ⬜ | |
 | Constructor `@Autowired` | | ⬜ | |
 | `@PostConstruct` | | ⬜ | |
